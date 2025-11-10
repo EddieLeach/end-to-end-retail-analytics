@@ -127,15 +127,10 @@ notebooks/01_data_exploration.ipynb
 
 ## 📓 Notebook Access
 
-You can explore the full SQL analysis and visual workflow in this Jupyter Notebook:
+You can explore the full Python ETL workflow in this Jupyter Notebook:
 
 👉 [**01_data_exploration.ipynb**](https://github.com/EddieLeach/end-to-end-retail-analytics/blob/main/notebooks/01_data_exploration.ipynb)
-
-The notebook includes:
-- All SQL queries used for analysis  
-- Key data exploration steps (EDA)  
-- Commentary explaining each stage of the workflow  
-- Example visualizations and interpretations  
+ 
 
 ---
 
