@@ -130,15 +130,15 @@ notebooks/01_data_exploration.ipynb
 You can explore the full Python ETL workflow in this Jupyter Notebook:
 
 👉 [**01_data_exploration.ipynb**](https://github.com/EddieLeach/end-to-end-retail-analytics/blob/main/notebooks/01_data_exploration.ipynb)
+
+📄 [ETL Pipeline Setup Guide (PDF)](reports/End_to_End_Retail_ETL_Pipeline.pdf)
  
-## 🗃️ SQL Scripts
+## 🧮 SQL Analysis
 
-All database-related queries and table creation scripts are stored in the [`/sql`](./sql) directory.
+Core SQL logic used in this project is stored here:
 
-| File | Description |
-|------|--------------|
-| [`create_tables.sql`](./sql/create_tables.sql) | Defines database schema and creates necessary tables for the retail analytics dataset. |
-| [`SQLQuery.sql`](./sql/SQLQuery.sql) | Contains key analytical queries, including revenue by region/month, top products, and category performance analysis. |
+- [`sql/analysis_queries.sql`](sql/analysis_queries.sql)
+📄 [SQL Analytics Documentation (PDF)](reports/End_to_End_Retail_SQL_Analytics.pdf)
 
 ---
 
