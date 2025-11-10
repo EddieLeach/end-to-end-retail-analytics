@@ -93,31 +93,49 @@ Each question is backed by:
 ```bash
 git clone https://github.com/eddieleach/end-to-end-retail-analytics.git
 cd end-to-end-retail-analytics
-
+```
 ### 2️⃣ Create and activate a virtual environment
-
+```bash
 python -m venv venv
 venv\Scripts\activate      # Windows
 # source venv/bin/activate # Mac/Linux
-
+```
 ### 3️⃣ Install dependencies
-
+```bash
 pip install -r requirements.txt
-
-### 4️⃣ Add the raw dataset
-
+```
+###4️⃣ Add the raw dataset
+```bash
 data/raw/
-
+```
 ### 5️⃣ Run the ETL pipeline
-
+```bash
 python src/extract.py
 python src/transform.py
 python src/load.py
-
+```
 ### 6️⃣ Explore and analyze
-
+```bash
 jupyter notebook
-
-then open
-
+```
+### Then Open
+```bash
 notebooks/01_data_exploration.ipynb
+```
+
+---
+
+## 📓 Notebook Access
+
+You can explore the full SQL analysis and visual workflow in this Jupyter Notebook:
+
+👉 [**01_data_exploration.ipynb**](https://github.com/EddieLeach/end-to-end-retail-analytics/blob/main/notebooks/01_data_exploration.ipynb)
+
+The notebook includes:
+- All SQL queries used for analysis  
+- Key data exploration steps (EDA)  
+- Commentary explaining each stage of the workflow  
+- Example visualizations and interpretations  
+
+---
+
